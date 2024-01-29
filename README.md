@@ -70,7 +70,7 @@ Whole report of my visualization.
 I Made Chart Dynamic By:
 Converting Data to Excel Table 
 Press Ctrl + T to convert the range into an Excel Table. 
-Define dynamic named ranges for your data. This step is optional but can be helpful.
+Define dynamic named ranges for the data. This step is optional but can be helpful.
 Go to the "Formulas" tab, click on "Name Manager," and created new named ranges using formulas that automatically adjust to new data in case we have new data.
 
 
