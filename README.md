@@ -38,24 +38,26 @@ Repeated for Exceeding Threshold: Added another rule for values exceeding a spec
 
 3. Apart from the fact that we use Index and Match it to create the column of "Total Delivered Quantity" it is also used to extract current stock quantity into "Past Order Sheet" from the "Stock Sheet" to cross-reference part numbers between different datasets and ensure accurate data consolidation..
 
-### Conditional Formatting
-## Visualization:
+4. In other to develop a dynamic charts that illustrates a trend in inventory levels overtime for a specific components. I combined data.By
+Creating a new sheet to combine relevant data from both the "Past Orders" and "Stock" sheets. Assuming you have columns like "Order Date," "Sku ID," "Order Quantity," and "Current Stock Quantity," arrange them in a structured manner which i already have in my Past orders sheet.
+Created a Line Chart:Select Data Range:Highlight the range of data, including headers, that I want to include in my dynamic chart. I ensured it covers "Order Date," "Order Quantity," and "Current Stock Quantity."Inserted a Line Chart:Go to the "Insert" tab on the Excel ribbon.Clicked on "Line" under the "Charts" section.Adjust Chart Design:
+I adjust the chart design, titles, and labels as needed for better clarity.
+#### Visualization:
 The Charts comprises 3 Line-Chart:
-1. Current Stock Line Chart
-2. Ordered Quantity Line Chart
-3. Current Stock and Ordered Quantity Line Chart 
+i. Current Stock Line Chart
 
-###  Current Stock Line Chart
-In this Power BI sales analysis, I skillfully crafted a dynamic and comprehensive model. I implemented advanced measures, creating slicers for both month and segments to ensure seamless interaction with the report, line chart illustrate the sum of sales over months and years, allowing users to grasp sales trends without interference from slicers. Additionally, a doughnut chart visualizes sales distribution by ship mode. To highlight key categories, a stacked bar chart showcases the top 5 and bottom 5 sales, contributing to a comprehensive and interactive exploration of sales insights. The report seamlessly combines interactivity with user-friendly design, enabling stakeholders to make informed decisions and strategize effectively based on the presented data.
+ii. Ordered Quantity Line Chart
+
+iii. Current Stock and Ordered Quantity Line Chart 
+
+I Made Chart Dynamic By:
+Converting Data to Excel Table 
+Press Ctrl + T to convert the range into an Excel Table. 
+Define dynamic named ranges for your data. This step is optional but can be helpful.
+Go to the "Formulas" tab, click on "Name Manager," and created new named ranges using formulas that automatically adjust to new data in case we have new data.
 
 
 
-###  Ordered Quantity Line Chart
-This Power BI report provides a detailed analysis of profit data with dynamic features such as buttons and slicers for month and segment selection. The primary focus is on a line chart illustrating the sum of sales over months and years, allowing users to grasp profits trends without interference from slicers. Additionally, a doughnut chart visualizes profit distribution by ship mode. To highlight key categories, a stacked bar chart showcases the top 5 and bottom 5 sales, contributing to a comprehensive and interactive exploration of tremendous insights when it comes to profit. The report seamlessly combines interactivity with user-friendly design, enabling stakeholders to make informed decisions and strategize effectively based on the presented data.
-
-
-
-### Current Stock and Ordered Quantity Line Chart 
 
 
 
