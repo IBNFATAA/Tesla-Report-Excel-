@@ -36,7 +36,7 @@ Then place the PivotTable in a new worksheet. I drag "Sku ID" to the Rows area a
 I choose the column with "Current Stock Quantity" in the "Stock" sheet.
 go to Conditional Formatting:go to the "Home" tab.click on "Conditional Formatting" and choose "New Rule."
 Set Conditions:Choose "Format cells that contain."
-Set conditions like "Cell Value" less than to 219 (This 219 is as a result of average imputation of median used in Current Stock Quantity column.
+Set conditions like "Cell Value" less than to 219 (This 219 is as a result of average imputation of median used in Current Stock Quantity column).
 Format with a color of red to visually identify low inventory.
 Repeated for Exceeding Threshold: Added another rule for values exceeding a specific threshold (equal or greater than 219) using a different formatting color of green.
 
