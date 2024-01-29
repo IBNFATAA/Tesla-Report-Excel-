@@ -73,6 +73,19 @@ Press Ctrl + T to convert the range into an Excel Table.
 Define dynamic named ranges for the data. This step is optional but can be helpful.
 Go to the "Formulas" tab, click on "Name Manager," and created new named ranges using formulas that automatically adjust to new data in case we have new data.
 
+5. I apply data validation to prevent errors in entering quantities or part numbers by:
+Selecting the Column:Click on the column where you have SKU ID.Go to Data Validation:Navigate to the "Data" tab on the Excel ribbon.Click on Data Validation:Click on "Data Validation" in the "Data Tools" group.Set Criteria:
+In the "Data Validation" dialog box, choosed "List" under the "Allow" dropdown.Specify Source List:
+In the "Source" field, entered range of valid SKU ID.
+Input Message:In the "Input Message" tab, I added a message that will appear when the cell is selected stating that only "Alphanumeric should be entered".
+In Error Alert, I set an error message stating "invalid entering" that appears when an invalid entry is made.
+then clicked OK to apply the data validation.
+
+Afterwards I selected the Columns of both current stock quantity and order quantity:Go to Data Validation:
+Navigate to the "Data" tab on the Excel ribbon.Click on Data Validation:Click on "Data Validation" in the "Data Tools" group.Set Criteria:In the "Data Validation" dialog box, I choosed "Between," then go to the Input Message:
+In the "Input Message" tab, I added a message that stated that only whole number or decimal should be entered.
+In the "Error Alert" tab, I set an error message for invalid quantity entries. Then click "ok", then 
+Click "OK" to apply the data validation.
 
 ## Conclusion and Recommendation
 The insights generated from the report shows:
