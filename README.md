@@ -50,26 +50,16 @@ ii. Ordered Quantity Line Chart
 
 iii. Current Stock and Ordered Quantity Line Chart 
 
+#### Whole Report
+
+
 I Made Chart Dynamic By:
 Converting Data to Excel Table 
 Press Ctrl + T to convert the range into an Excel Table. 
 Define dynamic named ranges for your data. This step is optional but can be helpful.
 Go to the "Formulas" tab, click on "Name Manager," and created new named ranges using formulas that automatically adjust to new data in case we have new data.
 
-
-
-
-
-
-### Whole Report
-
 ## Conclusion and Recommendation
 The insights generated from the report shows:
-- The highest generated sales by Month and year = (NOVEMBER)
-- Highest sales by ship mode = (STANDARD CLASS)
-- Highest sales by CITY = (NEW YORK)
-- Worst sales by city = (Waco)
-- The highest generated profit by Month and year = (OCTOBER)
-- Highest profit by profit = (STANDARD CLASS)
-- Highest profit by profit = (NEW YORK)
-- Worst sales by profit = (ELYRIA)
+- There is a repeated pattern of highest current stock quantity of 342,553 starting from 16th of march 2022
+- the highest quantity ordered is 111,770 on 21st of july 2022.
