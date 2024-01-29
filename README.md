@@ -32,18 +32,17 @@ decisions.
 Then place the PivotTable in a new worksheet. I drag "Sku ID" to the Rows area and drag "Order Quantity" to the Values area, and set it to show the sum of quantities. In the value field setting found in the Pivot table pane, I changed the title to "Total Order Quantity". I repeated the process for the "Stock" sheet to summarize the 
 "Total Delivered Quantity"(This was solved by creating a new column in the stock sheet and using index and match to extract the quantities from Ordered Quantities in the past orders sheet) and "Used Quantity"(This was solved by subtracting Total Delivered Quantity from the current stock quantity). 
 
-2. I choose the column with "Current Stock Quantity" in the "Stock" sheet.
-go to Conditional Formatting:
-go to the "Home" tab.
-click on "Conditional Formatting" and choose "New Rule."
+2. To utilize conditional formatting to visually identify components with low inventory levels or those exceeding a specific threshold:
+I choose the column with "Current Stock Quantity" in the "Stock" sheet.
+go to Conditional Formatting:go to the "Home" tab.click on "Conditional Formatting" and choose "New Rule."
 Set Conditions:Choose "Format cells that contain."
 Set conditions like "Cell Value" less than to 219 (This 219 is as a result of average imputation of median used in Current Stock Quantity column.
 Format with a color of red to visually identify low inventory.
 Repeated for Exceeding Threshold: Added another rule for values exceeding a specific threshold (equal or greater than 219) using a different formatting color of green.
 
-3. Apart from the fact that we use Index and Match it to create the column of "Total Delivered Quantity" it is also used to extract current stock quantity into "Past Order Sheet" from the "Stock Sheet" to cross-reference part numbers between different datasets and ensure accurate data consolidation..
+4. Apart from the fact that we use Index and Match it to create the column of "Total Delivered Quantity" it is also used to extract current stock quantity into "Past Order Sheet" from the "Stock Sheet" to cross-reference part numbers between different datasets and ensure accurate data consolidation..
 
-4. In other to develop a dynamic charts that illustrates a trend in inventory levels overtime for a specific components. I combined data.By
+5. In other to develop a dynamic charts that illustrates a trend in inventory levels overtime for a specific components. I combined data.By
 Creating a new sheet to combine relevant data from both the "Past Orders" and "Stock" sheets. Having columns like "Order Date," "Sku ID," "Order Quantity," and "Current Stock Quantity," arrange them in a structured manner which i already have in my Past orders sheet.
 
 Afterwards, I created a Line Chart:Select Data Range:Highlight the range of data, including headers, that I want to include in my dynamic chart. I ensured it covers "Order Date," "Order Quantity," and "Current Stock Quantity."Inserted a Line Chart:Go to the "Insert" tab on the Excel ribbon.Clicked on "Line" under the "Charts" section.Adjust Chart Design:
