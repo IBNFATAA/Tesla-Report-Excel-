@@ -65,7 +65,8 @@ In this chart i highlighted only the order date which is to the x axis and the c
 
 #### Whole Report
 Whole report of my visualization.
-<img width="623" alt="CurrentStock_Ordered_Quantity" src="https://github.com/habeebsalaudeen/Tesla-Report-Excel-/assets/97491265/6058cf03-73a0-4cb8-86d6-8798834dec95">
+![All_Report](https://github.com/habeebsalaudeen/Tesla-Report-Excel-/assets/97491265/74e52475-0944-4ade-a028-1a2d4bbd92d3)
+
 
 I Made Chart Dynamic By:
 Converting Data to Excel Table 
